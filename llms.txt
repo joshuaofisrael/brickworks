@@ -1,6 +1,6 @@
 # Brickworks (mortarsmash.com)
 
-> Brickworks is a free, plain-English guide for people interested in bricks: brick history, standard brick sizes (UK, US, German, Australian), bond patterns, how clay bricks are made, famous brick buildings, and how to care for and repoint brickwork. It also offers a free brick and mortar calculator and Mortar Smash, an original brick-smashing browser game. All text and graphics are original. Operated by Joshua Israel Ventures LLC.
+> Brickworks is a free, plain-English guide for people interested in bricks: brick history, standard brick sizes (UK, US, German, Australian), bond patterns, how clay bricks are made, famous brick buildings, and how to care for and repoint brickwork. It also offers a free brick and mortar calculator and Mortar Smash, an original brick-smashing browser game. All text and graphics are original. Mortar Smash is a brand of Joshua Israel Ventures LLC, which owns and operates the site.
 
 ## Guide
 - [Brick guide (home)](https://mortarsmash.com/): Overview of everything on the site, with an answer-first summary and FAQ.
@@ -17,6 +17,13 @@
 
 ## Game
 - [Mortar Smash](https://mortarsmash.com/game.html): A free, original brick-smashing arcade game with 9 levels and keyboard, mouse and touch controls.
+
+## About and policies
+- [About](https://mortarsmash.com/about.html): Mortar Smash is a brand of Joshua Israel Ventures LLC, which owns and operates the site.
+- [Contact](https://mortarsmash.com/contact.html): Email joshuaofisrael@gmail.com.
+- [Terms of Use](https://mortarsmash.com/terms.html): General information only, estimates are approximate, no warranties, Michigan law.
+- [Privacy Policy](https://mortarsmash.com/privacy.html): No accounts, analytics, ads or cookies; game best score stays on your device.
+- [Disclaimer](https://mortarsmash.com/disclaimer.html): Accuracy, no professional relationship, calculator estimates, no affiliate links or ads.
 
 ## Optional
 - [Sitemap](https://mortarsmash.com/sitemap.xml): All indexable pages.

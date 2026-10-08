@@ -12,4 +12,7 @@ h2{color:var(--brick);font-size:1.9rem}.cards{display:grid;grid-template-columns
 table{border-collapse:collapse;margin:1rem 0;background:#fff;width:100%}td,th{border:1px solid #c9bba6;padding:.5rem}th{background:var(--brick);color:#fff}
 .bonds{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem}figure{margin:0;background:#fff;padding:.7rem;border-radius:4px}
 svg{width:100%;background:#d8cfc0;display:block}.note{font-size:.9rem;font-style:italic}.play{text-align:center}
-footer{text-align:center;padding:2rem;font-size:.9rem}
+footer{text-align:center;padding:2rem 1rem;font-size:1rem;color:var(--dark);line-height:1.5}
+.site-footer .legal{display:flex;flex-wrap:wrap;justify-content:center;gap:.4rem 1.2rem}.site-footer .legal a{color:var(--brick);font-weight:bold}
+.hero.small{padding:2.2rem 1rem 1.4rem}.hero.small h1{font-size:clamp(1.9rem,6vw,3rem)}
+.legaltext{max-width:760px}.legaltext a{color:var(--brick)}.legaltext h2{font-size:1.4rem}
