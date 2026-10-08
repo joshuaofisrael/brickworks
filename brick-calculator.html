@@ -1,0 +1,82 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Brick Calculator: How Many Bricks Do I Need? (UK, US, EU, AU) | Brickworks</title>
+<meta name="description" content="Free brick calculator. Enter your wall size, brick standard and wall thickness to get bricks per m² or sq ft, total bricks with waste, mortar volume, and cement and sand. Shows the maths.">
+<link rel="canonical" href="https://mortarsmash.com/brick-calculator.html">
+<meta property="og:title" content="Brick Calculator: How Many Bricks Do I Need?"><meta property="og:type" content="website"><meta property="og:url" content="https://mortarsmash.com/brick-calculator.html">
+<meta property="og:description" content="Bricks, mortar, cement and sand for any wall, for UK, US, German and Australian brick sizes.">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"Brick Calculator","url":"https://mortarsmash.com/brick-calculator.html","applicationCategory":"UtilitiesApplication","operatingSystem":"Any (web browser)","description":"Estimate bricks, mortar, cement and sand for a wall using UK, US modular, German NF, Australian or custom brick sizes.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Joshua Israel Ventures LLC"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Brickworks","item":"https://mortarsmash.com/"},{"@type":"ListItem","position":2,"name":"Brick Calculator","item":"https://mortarsmash.com/brick-calculator.html"}]}]}</script>
+<link rel="stylesheet" href="style.css">
+<style>
+.calc{background:#fff;padding:1rem;border-radius:4px;border-left:6px solid var(--brick)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:.8rem 1rem}
+label{display:block;font-size:.9rem;font-weight:bold}input,select{width:100%;font:inherit;padding:.4rem;border:1px solid #c9bba6;border-radius:4px;background:#fffdf9}
+.out{margin-top:1rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:.8rem}
+.out div{background:var(--mortar);padding:.7rem;border-radius:4px}.out b{display:block;font-size:1.5rem;color:var(--brick)}
+.crumb{font-size:.9rem;margin:0 0 .5rem}.crumb a,main a{color:var(--brick)}#math{font-size:.9rem}
+.hero.small{padding:2.2rem 1rem 1.4rem}.hero.small h1{font-size:clamp(1.9rem,6vw,3rem)}
+</style></head><body>
+<header class="hero small"><div class="wall"></div><h1>Brick Calculator</h1><p>How many bricks, and how much mortar, does your wall need?</p>
+<nav><a href="index.html">Brickworks guide</a><a href="index.html#types">Brick sizes</a><a href="index.html#bonds">Bonds</a><a href="game.html" class="cta">Play Mortar Smash</a></nav></header>
+<main>
+<p class="crumb"><a href="index.html">Brickworks</a> › Brick Calculator</p>
+<section id="calculator"><h2>Calculate bricks and mortar</h2>
+<form class="calc" id="f" onsubmit="return false">
+<div class="grid">
+<div><label for="units">Units</label><select id="units"><option value="m">Metric (metres)</option><option value="ft">Imperial (feet)</option></select></div>
+<div><label for="len">Wall length</label><input id="len" type="number" min="0" step="any" value="5"></div>
+<div><label for="hgt">Wall height</label><input id="hgt" type="number" min="0" step="any" value="2"></div>
+<div><label for="open">Openings to deduct (total area, m² or sq ft)</label><input id="open" type="number" min="0" step="any" value="0"></div>
+<div><label for="std">Brick size</label><select id="std">
+<option value="uk">UK metric 215 × 102.5 × 65 mm</option>
+<option value="usm">US modular 7⅝ × 3⅝ × 2¼ in</option>
+<option value="de">German NF 240 × 115 × 71 mm</option>
+<option value="au">Australian 230 × 110 × 76 mm</option>
+<option value="custom">Custom size</option></select></div>
+<div><label for="bl">Brick length (mm)</label><input id="bl" type="number" min="1" step="any"></div>
+<div><label for="bw">Brick width / depth (mm)</label><input id="bw" type="number" min="1" step="any"></div>
+<div><label for="bh">Brick height (mm)</label><input id="bh" type="number" min="1" step="any"></div>
+<div><label for="jt">Mortar joint (mm)</label><input id="jt" type="number" min="0" step="any"></div>
+<div><label for="thk">Wall thickness</label><select id="thk">
+<option value="1">Half brick, single leaf (e.g. stretcher bond)</option>
+<option value="2">One brick thick, solid (e.g. English or Flemish bond)</option>
+<option value="c">Cavity wall, both leaves in brick</option></select></div>
+<div><label for="waste">Waste allowance (%)</label><input id="waste" type="number" min="0" max="50" step="1" value="5"></div>
+<div><label for="mix">Mortar mix (cement : sand)</label><select id="mix"><option value="3">1 : 3</option><option value="4" selected>1 : 4</option><option value="5">1 : 5</option><option value="6">1 : 6</option></select></div>
+</div>
+<div class="out" aria-live="polite">
+<div>Net wall area<b id="o-area">–</b></div>
+<div>Bricks per unit area<b id="o-per">–</b></div>
+<div>Bricks without waste<b id="o-net">–</b></div>
+<div>Bricks to order<b id="o-buy">–</b></div>
+<div>Wet mortar<b id="o-mortar">–</b></div>
+<div>Cement (approx.)<b id="o-cem">–</b></div>
+<div>Sand (approx.)<b id="o-sand">–</b></div>
+</div>
+<p id="math"></p>
+</form>
+<p class="note">Estimates only. Mortar figures assume solid bricks; frogged bricks laid frog-up and perforated bricks take noticeably more. Lime mortars and premixed bags have their own yields, so check the bag or your supplier before ordering. For structural walls, follow your engineer or building regulations.</p>
+</section>
+<section id="how"><h2>How the calculation works</h2>
+<p>Every brick takes up its own face plus one mortar joint on the side and one on top. So the number of bricks in one square metre of a single-leaf wall is:</p>
+<p><b>bricks per m² = 1 ÷ ((brick length + joint) × (brick height + joint))</b>, with sizes in metres.</p>
+<p>For a UK brick with a 10 mm joint that is 1 ÷ (0.225 × 0.075) ≈ 59.3, which is why builders quote "about 60 bricks per square metre". A wall one brick thick, or a cavity wall with brick on both sides, uses two leaves, so roughly double. Openings for doors and windows are subtracted before multiplying, and a waste allowance (typically 5% to 10%) covers cuts, breakages and chipped faces.</p>
+<p>Mortar is whatever fills the wall that isn't brick: the wall's volume minus the bricks' volume. To turn wet mortar into dry ingredients the calculator uses the common estimating rule that dry materials shrink by about 30% when mixed, a loose bulk density of about 1,440 kg/m³ for cement and 1,600 kg/m³ for damp building sand.</p>
+</section>
+<section id="table"><h2>Bricks per square metre by brick standard</h2>
+<p>Single-leaf (half-brick) wall with a 10 mm (or ⅜ in) joint, no waste:</p>
+<table><thead><tr><th>Brick standard</th><th>Size</th><th>Bricks per m²</th><th>Bricks per sq ft</th><th>One brick thick, per m²</th></tr></thead><tbody>
+<tr><td>UK metric</td><td>215 × 102.5 × 65 mm</td><td>59.3</td><td>5.5</td><td>118.5</td></tr>
+<tr><td>US modular</td><td>7⅝ × 3⅝ × 2¼ in</td><td>73.8</td><td>6.9</td><td>147.6</td></tr>
+<tr><td>German NF</td><td>240 × 115 × 71 mm</td><td>49.4</td><td>4.6</td><td>98.8</td></tr>
+<tr><td>Australian</td><td>230 × 110 × 76 mm</td><td>48.4</td><td>4.5</td><td>96.9</td></tr></tbody></table>
+<p class="note">US tables often say 6.75 modular bricks per square foot because modular coursing assumes three courses rise exactly 8 inches, a slightly thicker bed joint than ⅜ in. German tables quoting 48 NF bricks per m² assume a 12 mm bed joint. Change the joint size in the calculator to match your spec.</p>
+</section>
+<section id="faq"><h2>Common questions</h2>
+<h3>How many bricks are in a 1 m² wall?</h3><p>About 60 standard UK bricks for a single-leaf wall, or about 120 for a solid wall one brick thick. Add 5% to 10% for waste.</p>
+<h3>How many bricks do I need for a garden wall?</h3><p>Multiply length by height to get the face area, choose "one brick thick" if it is a freestanding 215 mm wall (most garden walls over about 450 mm high are built that way for stability), and add waste. Don't forget the coping or brick-on-edge course on top, which uses extra bricks.</p>
+<h3>Does the bond pattern change the number of bricks?</h3><p>Not for the same wall thickness. Stretcher, English and Flemish bonds all fill the same area; they just arrange the headers and stretchers differently. What changes the count is the thickness. See our <a href="index.html#bonds">guide to brick bonds</a>.</p>
+<h3>How much mortar do I need per 1,000 bricks?</h3><p>For UK bricks in a single-leaf wall, roughly 0.3 m³ of wet mortar per 1,000 solid bricks before waste, and more for frogged bricks. The calculator works it out from your exact size and joint.</p>
+</section>
+<section class="play"><h2>Done with the maths?</h2><p>Knock a wall down instead of building one.</p><a class="cta big" href="game.html">Play Mortar Smash →</a></section>
+</main><footer>Operated by Joshua Israel Ventures LLC.<br>© Brickworks. Hosted on GitHub Pages.</footer>
+<script src="calculator.js"></script></body></html>
