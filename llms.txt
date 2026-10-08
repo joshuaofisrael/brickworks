@@ -1,0 +1,22 @@
+# Brickworks (mortarsmash.com)
+
+> Brickworks is a free, plain-English guide for people interested in bricks: brick history, standard brick sizes (UK, US, German, Australian), bond patterns, how clay bricks are made, famous brick buildings, and how to care for and repoint brickwork. It also offers a free brick and mortar calculator and Mortar Smash, an original brick-smashing browser game. All text and graphics are original. Operated by Joshua Israel Ventures LLC.
+
+## Guide
+- [Brick guide (home)](https://mortarsmash.com/): Overview of everything on the site, with an answer-first summary and FAQ.
+- [A short history of bricks](https://mortarsmash.com/#history): From sun-dried mud bricks through fired brick, the Romans and the Industrial Revolution.
+- [Brick types and sizes](https://mortarsmash.com/#types): Common, facing, engineering, fire, handmade and perforated bricks, plus a table of national standard sizes.
+- [Brick bonds and patterns](https://mortarsmash.com/#bonds): Stretcher, English, Flemish and stack bond, with diagrams.
+- [How bricks are made](https://mortarsmash.com/#making): The six steps from digging clay to kiln firing and sorting.
+- [Famous brick buildings](https://mortarsmash.com/#famous): Malbork Castle, Hampton Court, the Great Mosque of Djenné, Chilehaus, St Pancras and the Ctesiphon arch.
+- [Brick care and repointing tips](https://mortarsmash.com/#care): Mortar choice, raking out, curing, gentle cleaning and fixing damp at the source.
+- [Brick FAQ](https://mortarsmash.com/#faq): Short answers on brick sizes, English versus Flemish bond, brickmaking and repointing mortar.
+
+## Tools
+- [Brick calculator](https://mortarsmash.com/brick-calculator.html): Estimates bricks, wet mortar, cement and sand for a wall in UK, US modular, German NF, Australian or custom sizes, and shows the working.
+
+## Game
+- [Mortar Smash](https://mortarsmash.com/game.html): A free, original brick-smashing arcade game with 9 levels and keyboard, mouse and touch controls.
+
+## Optional
+- [Sitemap](https://mortarsmash.com/sitemap.xml): All indexable pages.
