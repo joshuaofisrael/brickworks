@@ -13,7 +13,7 @@
 - [Brick FAQ](https://mortarsmash.com/#faq): Short answers on brick sizes, English versus Flemish bond, brickmaking and repointing mortar.
 
 ## Tools
-- [Brick calculator](https://mortarsmash.com/brick-calculator.html): Estimates bricks, wet mortar, cement and sand for a wall in UK, US modular, German NF, Australian or custom sizes, and shows the working.
+- [Brick calculator](https://mortarsmash.com/brick-calculator.html): Estimates bricks, wet mortar, cement and sand for a wall in UK, US modular, German NF, Australian or custom sizes, and shows the working. Includes one-click common-project presets (UK garden wall, planter wall, extension outer leaf, US modular seat wall, Australian veneer wall, German NF wall) and a "bricks for common jobs" table with the results.
 
 ## Game
 - [Mortar Smash](https://mortarsmash.com/game.html): A free, original brick-smashing arcade game with 9 levels and keyboard, mouse and touch controls.

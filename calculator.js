@@ -28,4 +28,7 @@ function calc(){
 $('std').addEventListener('change',function(){preset();calc();});
 ['bl','bw','bh','jt'].forEach(function(id){$(id).addEventListener('input',function(){$('std').value='custom';calc();});});
 ['units','len','hgt','open','thk','waste','mix'].forEach(function(id){$(id).addEventListener('input',calc);$(id).addEventListener('change',calc);});
+var PB=[].slice.call(document.querySelectorAll('#presets .pre'));
+function load(b){$('units').value=b.dataset.u;$('len').value=b.dataset.l;$('hgt').value=b.dataset.h;$('open').value=b.dataset.o;$('std').value=b.dataset.s;preset();$('thk').value=b.dataset.t;$('waste').value=b.dataset.w;calc();var f=$('f');if(f.scrollIntoView)f.scrollIntoView({behavior:'smooth',block:'start'});}
+[].forEach.call(document.querySelectorAll('.pre'),function(b){b.addEventListener('click',function(){load(b.dataset.idx!=null?PB[+b.dataset.idx]:b);});});
 preset();calc();})();
