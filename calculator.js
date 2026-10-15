@@ -32,3 +32,12 @@ var PB=[].slice.call(document.querySelectorAll('#presets .pre'));
 function load(b){$('units').value=b.dataset.u;$('len').value=b.dataset.l;$('hgt').value=b.dataset.h;$('open').value=b.dataset.o;$('std').value=b.dataset.s;preset();$('thk').value=b.dataset.t;$('waste').value=b.dataset.w;calc();var f=$('f');if(f.scrollIntoView)f.scrollIntoView({behavior:'smooth',block:'start'});}
 [].forEach.call(document.querySelectorAll('.pre'),function(b){b.addEventListener('click',function(){load(b.dataset.idx!=null?PB[+b.dataset.idx]:b);});});
 preset();calc();})();
+(function(){var g=function(i){return document.getElementById(i);};
+var SZ={uk:[[1,'1 brick (215 × 215 mm)',2],[1.5,'1½ brick (327.5 × 327.5 mm)',4.5],[2,'2 brick (440 × 440 mm)',8]],us:[[1,'8 × 8 in nominal',2],[1.5,'12 × 12 in nominal',4.5],[2,'16 × 16 in nominal',8]]};
+function pier(sys,idx,h,count,waste){var per=SZ[sys][idx][2];var courses=sys==='uk'?Math.ceil(h*1000/75-1e-9):Math.ceil(h*12*3/8-1e-9);var each=courses*per;var net=each*count;return {per:per,courses:courses,each:each,net:net,buy:Math.ceil(net*(1+waste/100)-1e-9)};}
+if(!g('p-sys'))return;
+function fill(){var s=g('p-sys').value,sel=g('p-size'),v=sel.value||'1';sel.innerHTML='';SZ[s].forEach(function(r,i){var o=document.createElement('option');o.value=i;o.textContent=r[1];sel.appendChild(o);});sel.value=v;g('p-hl').textContent=s==='uk'?'Pier height (m)':'Pier height (ft)';}
+function run(){var s=g('p-sys').value,i=+g('p-size').value,h=parseFloat(g('p-h').value)||0,c=Math.max(0,parseInt(g('p-n').value,10)||0),w=parseFloat(g('p-w').value)||0;var r=pier(s,i,h,c,w);
+g('p-out').textContent=r.courses+' courses × '+r.per+' bricks per course = '+r.each+' bricks per pier; '+r.net+' for '+c+(c===1?' pier':' piers')+', '+r.buy+' to order with '+w+'% waste.';}
+g('p-sys').addEventListener('change',function(){fill();run();});['p-size','p-h','p-n','p-w'].forEach(function(id){g(id).addEventListener('input',run);g(id).addEventListener('change',run);});
+fill();run();})();

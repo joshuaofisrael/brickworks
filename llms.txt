@@ -13,7 +13,7 @@
 - [Brick FAQ](https://mortarsmash.com/#faq): Short answers on brick sizes, English versus Flemish bond, brickmaking and repointing mortar.
 
 ## Tools
-- [Brick calculator](https://mortarsmash.com/brick-calculator.html): Estimates bricks, wet mortar, cement and sand for a wall in UK, US modular, German NF, Australian or custom sizes, and shows the working. Includes one-click common-project presets, a "bricks for common jobs" table, and a US answer block on how many bricks per square foot (modular ~6.9/sq ft single leaf; 20 ft × 3 ft two-wythe seat wall worked example).
+- [Brick calculator](https://mortarsmash.com/brick-calculator.html): Estimates bricks, wet mortar, cement and sand for a wall in UK, US modular, German NF, Australian or custom sizes, and shows the working. Includes one-click common-project presets, a "bricks for common jobs" table, and a US answer block on how many bricks per square foot (modular ~6.9/sq ft single leaf; 20 ft × 3 ft two-wythe seat wall worked example), and a brick pier and pillar calculator (UK 1½-brick pier ~4½ bricks per course, ~60 per metre; US modular 12 and 16 in piers).
 
 ## Game
 - [Mortar Smash](https://mortarsmash.com/game.html): A free, original brick-smashing arcade game with 9 levels and keyboard, mouse and touch controls.
