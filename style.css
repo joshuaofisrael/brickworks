@@ -16,3 +16,4 @@ footer{text-align:center;padding:2rem 1rem;font-size:1rem;color:var(--dark);line
 .site-footer .legal{display:flex;flex-wrap:wrap;justify-content:center;gap:.4rem 1.2rem}.site-footer .legal a{color:var(--brick);font-weight:bold}
 .hero.small{padding:2.2rem 1rem 1.4rem}.hero.small h1{font-size:clamp(1.9rem,6vw,3rem)}
 .legaltext{max-width:760px}.legaltext a{color:var(--brick)}.legaltext h2{font-size:1.4rem}
+.contact-form{display:grid;gap:.4rem;max-width:520px;margin:1.2rem 0}.contact-form label{font-weight:bold;margin-top:.4rem}.contact-form input,.contact-form textarea{font:inherit;padding:.55rem;border:1px solid #b9a79e;border-radius:4px;width:100%;box-sizing:border-box}.contact-form button{cursor:pointer;justify-self:start;margin-top:.6rem;font-size:1rem}.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}.note{font-size:.9rem;opacity:.85}
