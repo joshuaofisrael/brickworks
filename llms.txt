@@ -1,6 +1,6 @@
-# Brickworks (mortarsmash.com)
+# Mortar Smash (mortarsmash.com)
 
-> Brickworks is a free, plain-English guide for people interested in bricks: brick history, standard brick sizes (UK, US, German, Australian), bond patterns, how clay bricks are made, famous brick buildings, and how to care for and repoint brickwork. It also offers a free brick and mortar calculator and Mortar Smash, an original brick-smashing browser game. All text and graphics are original. Mortar Smash is a brand of Joshua Israel Ventures LLC, which owns and operates the site.
+> Mortar Smash (formerly titled Brickworks) is a free, plain-English guide for people interested in bricks: brick history, standard brick sizes (UK, US, German, Australian), bond patterns, how clay bricks are made, famous brick buildings, and how to care for and repoint brickwork. It also offers a free brick and mortar calculator and an original brick-smashing browser game of the same name. All text and graphics are original. Mortar Smash is a brand of Joshua Israel Ventures LLC, which owns and operates the site.
 
 ## Guide
 - [Brick guide (home)](https://mortarsmash.com/): Overview of everything on the site, with an answer-first summary and FAQ.
