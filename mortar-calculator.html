@@ -1,0 +1,74 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mortar Calculator: How Much Mortar, Cement and Sand for Bricks? | Mortar Smash</title>
+<meta name="description" content="Free mortar calculator: about 0.3 m³ of mortar, five 25 kg bags of cement and 0.5 t of sand per 1,000 UK bricks (1:4 mix). Works by number of bricks or wall area for UK, US, EU and AU bricks, and shows the maths.">
+<link rel="canonical" href="https://mortarsmash.com/mortar-calculator.html">
+<meta property="og:title" content="Mortar Calculator: Mortar, Cement and Sand for Bricks"><meta property="og:type" content="website"><meta property="og:url" content="https://mortarsmash.com/mortar-calculator.html">
+<meta property="og:description" content="How much mortar, cement and sand per 1,000 bricks or per square metre of wall, for UK, US modular, German and Australian bricks.">
+<meta property="og:site_name" content="Mortar Smash"><meta property="og:image" content="https://mortarsmash.com/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Mortar Smash: brick calculator, brick guide and free game">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://mortarsmash.com/og.png">
+<link rel="icon" href="/favicon.ico" sizes="any"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://mortarsmash.com/#org", "name": "Joshua Israel Ventures LLC", "legalName": "Joshua Israel Ventures LLC", "url": "https://mortarsmash.com/", "email": "joshuaofisrael@gmail.com", "brand": {"@type": "Brand", "name": "Mortar Smash", "url": "https://mortarsmash.com/"}}, {"@type": "WebSite", "@id": "https://mortarsmash.com/#website", "name": "Mortar Smash", "alternateName": "Brickworks", "url": "https://mortarsmash.com/", "publisher": {"@id": "https://mortarsmash.com/#org"}, "inLanguage": "en"}, {"@type": "WebApplication", "name": "Mortar Calculator", "url": "https://mortarsmash.com/mortar-calculator.html", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any (web browser)", "description": "Estimate wet mortar, cement and sand for a number of bricks or an area of brick wall, for UK, US modular, German NF and Australian bricks.", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@id": "https://mortarsmash.com/#org"}, "isPartOf": {"@id": "https://mortarsmash.com/#website"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Mortar Smash", "item": "https://mortarsmash.com/"}, {"@type": "ListItem", "position": 2, "name": "Mortar Calculator", "item": "https://mortarsmash.com/mortar-calculator.html"}]}, {"@type": "FAQPage", "url": "https://mortarsmash.com/mortar-calculator.html#faq", "mainEntity": [{"@type": "Question", "name": "How much mortar do I need per 1,000 bricks?", "acceptedAnswer": {"@type": "Answer", "text": "For standard UK bricks (215 × 102.5 × 65 mm) with a 10 mm joint, about 0.30 m³ of wet mortar per 1,000 bricks in a half-brick (single-leaf) wall, or about 0.38 m³ in a solid wall one brick thick, before waste. US modular brick with a ⅜ in joint takes about 8 cu ft per 1,000 in a single wythe. Frogged bricks laid frog-up take more."}}, {"@type": "Question", "name": "How many bags of cement do I need for 1,000 bricks?", "acceptedAnswer": {"@type": "Answer", "text": "About 111 kg of cement for 1,000 UK bricks in a half-brick wall at a 1:4 cement-to-sand mix, which is five 25 kg bags once you add 10% for waste (about 122 kg). A one-brick-thick wall needs about 143 kg before waste, so six bags."}}, {"@type": "Question", "name": "How much sand do I need for 1,000 bricks?", "acceptedAnswer": {"@type": "Answer", "text": "About 0.5 tonnes (495 kg) of building sand for 1,000 UK bricks in a half-brick wall at a 1:4 mix, or about 545 kg with 10% waste. A one-brick-thick wall needs about 635 kg before waste."}}, {"@type": "Question", "name": "How much mortar do I need per square metre of brickwork?", "acceptedAnswer": {"@type": "Answer", "text": "About 18 litres (0.018 m³) of wet mortar per m² for a UK half-brick wall with 10 mm joints, and about 45 litres per m² for a solid wall one brick thick, because the thick wall also has a vertical collar joint down the middle."}}, {"@type": "Question", "name": "What mortar mix should I use for brickwork?", "acceptedAnswer": {"@type": "Answer", "text": "For general outdoor brickwork 1 part cement to 4 parts building sand (with plasticiser) is the common choice. Use a stronger 1:3 mix for copings, work below the damp-proof course and engineering bricks, and a weaker 1:5 or 1:6 for soft bricks and sheltered or internal walls. Mortar should be weaker than the brick, and old soft brickwork usually needs a lime mortar. In the US, Type N is the usual mortar for above-grade walls and Type S for below-grade and retaining walls."}}]}]}</script>
+<link rel="stylesheet" href="style.css">
+<style>
+.calc{background:#fff;padding:1rem;border-radius:4px;border-left:6px solid var(--brick)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:.8rem 1rem}
+label{display:block;font-size:.9rem;font-weight:bold}input,select{width:100%;font:inherit;padding:.4rem;border:1px solid #c9bba6;border-radius:4px;background:#fffdf9}
+.out{margin-top:1rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:.8rem}
+.out div{background:var(--mortar);padding:.7rem;border-radius:4px}.out b{display:block;font-size:1.5rem;color:var(--brick)}
+.crumb{font-size:.9rem;margin:0 0 .5rem}.crumb a,main a{color:var(--brick)}#math{font-size:.9rem}
+.hero.small{padding:2.2rem 1rem 1.4rem}.hero.small h1{font-size:clamp(1.9rem,6vw,3rem)}
+.presets{margin:0 0 1rem}.presets h3{margin:.2rem 0}.pre-list{display:flex;flex-wrap:wrap;gap:.5rem}
+.pre{font:inherit;font-size:.9rem;padding:.45rem .7rem;border:1px solid var(--brick);background:#fff;color:var(--brick);border-radius:4px;cursor:pointer;text-align:left}
+.pre:hover,.pre:focus{background:var(--brick);color:#fff}.pre.mini{padding:.2rem .5rem}.tablewrap{overflow-x:auto}
+</style></head><body>
+<header class="hero small"><div class="wall"></div><h1>Mortar Calculator</h1><p>How much mortar, cement and sand do your bricks need?</p>
+<nav><a href="index.html">Brick guide</a><a href="brick-calculator.html">Brick calculator</a><a href="index.html#care">Repointing</a><a href="game.html" class="cta">Play Mortar Smash</a></nav></header>
+<main>
+<p class="crumb"><a href="index.html">Mortar Smash</a> › Mortar Calculator</p>
+<section id="answer"><h2>Short answer</h2>
+<p><b>1,000 standard UK bricks in a half-brick wall need about 0.3 m³ of wet mortar: roughly five 25 kg bags of cement and half a tonne of building sand at a 1 : 4 mix</b>, including 10% for waste. A solid wall one brick thick uses about 30% more mortar per brick, because of the vertical joint down its middle. In the US, 1,000 modular bricks in a single wythe take about 8 cu ft of mortar before waste.</p>
+<p>Know the wall size but not the brick count? Use the calculator below by wall area, or start with the <a href="brick-calculator.html">brick calculator</a>, which counts bricks and mortar together.</p></section>
+<section id="calculator"><h2>Calculate mortar, cement and sand</h2>
+<div class="calc" id="f"><div class="grid">
+<div><label for="m-by">Calculate from</label><select id="m-by"><option value="bricks" selected>Number of bricks</option><option value="area">Wall face area</option></select></div>
+<div><label for="m-q" id="m-ql">Number of bricks</label><input id="m-q" type="number" min="0" step="any" value="1000"></div>
+<div><label for="m-std">Brick standard</label><select id="m-std"><option value="uk" selected>UK 215 × 102.5 × 65 mm, 10 mm joint</option><option value="usm">US modular 7⅝ × 3⅝ × 2¼ in, ⅜ in joint</option><option value="de">German NF 240 × 115 × 71 mm, 10 mm joint</option><option value="au">Australian 230 × 110 × 76 mm, 10 mm joint</option></select></div>
+<div><label for="m-thk">Wall thickness</label><select id="m-thk"><option value="1" selected>Half brick (single leaf / one wythe)</option><option value="2">One brick thick (solid, two leaves with collar joint)</option></select></div>
+<div><label for="m-mix">Mix (cement : sand)</label><select id="m-mix"><option value="3">1 : 3 (strong)</option><option value="4" selected>1 : 4 (general)</option><option value="5">1 : 5</option><option value="6">1 : 6 (soft bricks, sheltered)</option></select></div>
+<div><label for="m-w">Waste (%)</label><input id="m-w" type="number" min="0" step="any" value="10"></div>
+</div>
+<div class="out"><div>Bricks<b id="m-o-b">–</b></div><div>Wet mortar<b id="m-o-wet">–</b></div><div>Cement<b id="m-o-cem">–</b></div><div>Building sand<b id="m-o-sand">–</b></div></div>
+<p id="m-math"></p>
+<p class="note">Estimates only, for solid bricks laid with full joints. Frogged bricks laid frog-up and perforated bricks take noticeably more. Lime and ready-mixed mortars follow the maker's yields, not these figures.</p></div></section>
+<section id="per-1000"><h2>Mortar per 1,000 bricks and per square metre</h2>
+<p>Figures from this page's calculator, no waste, 1 : 4 mix:</p>
+<div class="tablewrap"><table><thead><tr><th>Brick and wall</th><th>Bricks per m²</th><th>Wet mortar per m²</th><th>Wet mortar per 1,000 bricks</th><th>Cement per 1,000</th><th>Sand per 1,000</th></tr></thead><tbody>
+<tr><td>UK, half brick</td><td>59.3</td><td>17.6 litres</td><td>0.30 m³</td><td>111 kg</td><td>495 kg</td></tr>
+<tr><td>UK, one brick thick</td><td>118.5</td><td>45.2 litres</td><td>0.38 m³</td><td>143 kg</td><td>635 kg</td></tr>
+<tr><td>US modular, one wythe</td><td>6.9 per sq ft</td><td>0.055 cu ft per sq ft</td><td>8.0 cu ft</td><td>188 lb</td><td>836 lb</td></tr>
+<tr><td>US modular, two wythes</td><td>13.7 per sq ft</td><td>0.141 cu ft per sq ft</td><td>10.3 cu ft</td><td>241 lb</td><td>1,072 lb</td></tr>
+<tr><td>German NF, half brick</td><td>49.4</td><td>18.2 litres</td><td>0.37 m³</td><td>138 kg</td><td>614 kg</td></tr>
+<tr><td>Australian, single leaf</td><td>48.4</td><td>16.8 litres</td><td>0.35 m³</td><td>130 kg</td><td>578 kg</td></tr>
+</tbody></table></div>
+<p>Bigger bricks use more mortar per brick but fewer bricks per square metre, so mortar per square metre of a single-leaf wall stays close to 17 to 18 litres whatever the brick.</p></section>
+<section id="mix"><h2>Which mortar mix should I use?</h2>
+<p>Mortar should be a little weaker than the bricks it joins, so any cracking follows the joints, which are easy to repoint, rather than the bricks. Common rules of thumb:</p>
+<ul><li><b>1 : 3</b> cement : sand for copings, work below the damp-proof course, retaining walls and dense engineering bricks.</li>
+<li><b>1 : 4</b> with a plasticiser for most general outdoor walls in ordinary facing bricks.</li>
+<li><b>1 : 5 or 1 : 6</b> with a plasticiser for softer bricks and sheltered or internal walls.</li>
+<li><b>Lime mortar</b> for old, soft brickwork; hard cement mortar can trap moisture and spall old bricks (see <a href="index.html#care">repointing tips</a>).</li>
+<li><b>US mortar types:</b> Type N for most above-grade walls, Type S for below-grade, retaining and high-wind work, Type M for heavy loads below grade.</li></ul>
+<p>Follow a structural engineer's or the brick maker's specification where there is one.</p></section>
+<section id="how"><h2>How the calculation works</h2>
+<p>Each brick, with its share of joints, occupies (brick length + joint) × (brick height + joint) of wall face. Mortar is the wall's volume minus the bricks' volume. A wall one brick thick also has a vertical collar joint between its two leaves. Wet mortar is converted to dry materials using the common estimating rule that dry ingredients shrink by about 30% when mixed, with loose bulk densities of about 1,440 kg/m³ for cement and 1,600 kg/m³ for damp building sand. These are the same formulas as the <a href="brick-calculator.html#how">brick calculator</a>.</p></section>
+<section id="faq"><h2>Mortar FAQ</h2>
+<h3>How much mortar do I need per 1,000 bricks?</h3><p>For standard UK bricks (215 × 102.5 × 65 mm) with a 10 mm joint, about 0.30 m³ of wet mortar per 1,000 bricks in a half-brick (single-leaf) wall, or about 0.38 m³ in a solid wall one brick thick, before waste. US modular brick with a ⅜ in joint takes about 8 cu ft per 1,000 in a single wythe. Frogged bricks laid frog-up take more.</p>
+<h3>How many bags of cement do I need for 1,000 bricks?</h3><p>About 111 kg of cement for 1,000 UK bricks in a half-brick wall at a 1:4 cement-to-sand mix, which is five 25 kg bags once you add 10% for waste (about 122 kg). A one-brick-thick wall needs about 143 kg before waste, so six bags.</p>
+<h3>How much sand do I need for 1,000 bricks?</h3><p>About 0.5 tonnes (495 kg) of building sand for 1,000 UK bricks in a half-brick wall at a 1:4 mix, or about 545 kg with 10% waste. A one-brick-thick wall needs about 635 kg before waste.</p>
+<h3>How much mortar do I need per square metre of brickwork?</h3><p>About 18 litres (0.018 m³) of wet mortar per m² for a UK half-brick wall with 10 mm joints, and about 45 litres per m² for a solid wall one brick thick, because the thick wall also has a vertical collar joint down the middle.</p>
+<h3>What mortar mix should I use for brickwork?</h3><p>For general outdoor brickwork 1 part cement to 4 parts building sand (with plasticiser) is the common choice. Use a stronger 1:3 mix for copings, work below the damp-proof course and engineering bricks, and a weaker 1:5 or 1:6 for soft bricks and sheltered or internal walls. Mortar should be weaker than the brick, and old soft brickwork usually needs a lime mortar. In the US, Type N is the usual mortar for above-grade walls and Type S for below-grade and retaining walls.</p>
+</section>
+<section class="play"><h2>Done mixing?</h2><p>Knock a wall down instead of building one.</p><a class="cta big" href="game.html">Play Mortar Smash</a></section>
+</main><footer class="site-footer"><p>© 2026 Joshua Israel Ventures LLC. All rights reserved. Mortar Smash is owned and operated by Joshua Israel Ventures LLC.</p><nav class="legal"><a href="about.html">About</a><a href="terms.html">Terms</a><a href="privacy.html">Privacy</a><a href="disclaimer.html">Disclaimer</a><a href="contact.html">Contact</a></nav></footer>
+<script src="mortar.js"></script><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "347bc8b9222c4aeeb0b1d2c29fe52790"}'></script>
+</body></html>
