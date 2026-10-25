@@ -1,6 +1,6 @@
 # Mortar Smash (mortarsmash.com)
 
-> Mortar Smash (formerly titled Brickworks) is a free, plain-English guide for people interested in bricks: brick history, standard brick sizes (UK, US, German, Australian), bond patterns, how clay bricks are made, famous brick buildings, and how to care for and repoint brickwork. It also offers a free brick and mortar calculator and an original brick-smashing browser game of the same name. All text and graphics are original. Mortar Smash is a brand of Joshua Israel Ventures LLC, which owns and operates the site.
+> Mortar Smash (formerly titled Brickworks) is a free, plain-English guide for people interested in bricks: brick history, standard brick sizes (UK, US, German, Australian), bond patterns, how clay bricks are made, famous brick buildings, and how to care for and repoint brickwork. It also offers a free brick and mortar calculator and an original brick-smashing browser game of the same name. All text and graphics are original.
 
 ## Guide
 - [Brick guide (home)](https://mortarsmash.com/): Overview of everything on the site, with an answer-first summary and FAQ.
@@ -20,8 +20,8 @@
 - [Mortar Smash](https://mortarsmash.com/game.html): A free, original brick-smashing arcade game with 9 levels and keyboard, mouse and touch controls.
 
 ## About and policies
-- [About](https://mortarsmash.com/about.html): Mortar Smash is a brand of Joshua Israel Ventures LLC, which owns and operates the site.
-- [Contact](https://mortarsmash.com/contact.html): Contact form (name, email, message) or email joshuaofisrael@gmail.com.
+- [About](https://mortarsmash.com/about.html):
+- [Contact](https://mortarsmash.com/contact.html): Contact form (name, email, message).
 - [Terms of Use](https://mortarsmash.com/terms.html): General information only, estimates are approximate, no warranties, Florida law.
 - [Privacy Policy](https://mortarsmash.com/privacy.html): Contact form via FormSubmit used only to reply; cookieless Cloudflare Web Analytics; no accounts, ads or cookies; game best score stays on your device.
 - [Disclaimer](https://mortarsmash.com/disclaimer.html): Accuracy, no professional relationship, calculator estimates, no affiliate links or ads.
