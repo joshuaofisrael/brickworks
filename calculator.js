@@ -1,6 +1,6 @@
 // Brick calculator for Brickworks. Original code.
 (function(){'use strict';
-var P={uk:[215,102.5,65,10],usm:[193.7,92.1,57.2,9.5],de:[240,115,71,10],au:[230,110,76,10]};
+var P={uk:[215,102.5,65,10],usm:[193.7,92.1,57.2,9.5],de:[240,115,71,10],au:[230,110,76,10],ukb:[440,100,215,10],ukb140:[440,140,215,10],cmu:[396.9,193.7,193.7,9.5]};
 var $=function(id){return document.getElementById(id);};
 var FT2=0.09290304, M3FT3=35.3147, KGLB=2.20462;
 function preset(){var p=P[$('std').value];if(!p)return;$('bl').value=p[0];$('bw').value=p[1];$('bh').value=p[2];$('jt').value=p[3];}
