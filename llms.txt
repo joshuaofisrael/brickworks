@@ -1,6 +1,6 @@
 # Mortar Smash (mortarsmash.com)
 
-> Mortar Smash (formerly titled Brickworks) is a free, plain-English guide for people interested in bricks: brick history, standard brick sizes (UK, US, German, Australian), bond patterns, how clay bricks are made, famous brick buildings, and how to care for and repoint brickwork. It also offers a free brick and mortar calculator and an original brick-smashing browser game of the same name. All text and graphics are original.
+> Mortar Smash (formerly titled Brickworks) is a free, plain-English guide for people interested in bricks: brick history, standard brick sizes (UK, US, German, Australian), bond patterns, how clay bricks are made, famous brick buildings, and how to care for and repoint brickwork. It also offers a free brick and mortar calculator and an original brick-smashing browser game of the same name. Guide text and bond diagrams are original. Illustrative photos on the mortar articles are AI-generated and labelled in their captions.
 
 ## Guide
 - [Brick guide (home)](https://mortarsmash.com/): Overview of everything on the site, with an answer-first summary and FAQ.
@@ -27,8 +27,9 @@
 - [About](https://mortarsmash.com/about.html):
 - [Contact](https://mortarsmash.com/contact.html): Contact form (name, email, message).
 - [Terms of Use](https://mortarsmash.com/terms.html): General information only, estimates are approximate, no warranties, Florida law.
-- [Privacy Policy](https://mortarsmash.com/privacy.html): Contact form via FormSubmit used only to reply; cookieless Cloudflare Web Analytics; no accounts, ads or cookies; game best score stays on your device.
-- [Disclaimer](https://mortarsmash.com/disclaimer.html): Accuracy, no professional relationship, calculator estimates, no affiliate links or ads.
+- [Privacy Policy](https://mortarsmash.com/privacy.html): Contact form via FormSubmit used only to reply; Google Analytics; Google AdSense cookies and third-party ad vendors, with opt-out at https://adssettings.google.com; cookieless Cloudflare Web Analytics; game best score stays on your device.
+- [Disclaimer](https://mortarsmash.com/disclaimer.html): Accuracy, no professional relationship, calculator estimates, Google AdSense ads are not endorsements, no affiliate links.
+- [Editorial and advertising disclosure](https://mortarsmash.com/disclosure.html): Who writes the site, AI-generated photos labelled in captions, and Google AdSense advertising.
 
 ## Optional
 - [Sitemap](https://mortarsmash.com/sitemap.xml): All indexable pages.
