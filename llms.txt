@@ -15,6 +15,7 @@
 - [Mortar types N, S, M and O](https://mortarsmash.com/mortar-types-n-s-m-o.html): ASTM C270 types for bricklayers — Type N general above-grade, Type S below-grade/retaining, Type M heavy loads, Type O soft historic brick; why harder mortar can damage soft brick.
 - [Lime vs cement mortar](https://mortarsmash.com/lime-vs-cement-mortar.html): Lime, NHL and Portland cement binders compared; when soft brick needs lime; cement-lime Type N/S as the practical middle; curing differences.
 - [How to mix mortar](https://mortarsmash.com/how-to-mix-mortar.html): Volume ratios 1:3 to 1:6, cement:lime:sand gauging, water sense, batch size, wheelbarrow vs mixer, and common strength failures.
+- [Building sand vs sharp sand](https://mortarsmash.com/building-sand-vs-sharp-sand.html): Masonry sand (building sand, ASTM C144) versus sharp or concrete sand (ASTM C33) for bricklaying mortar, floor beds, and concrete, with illustrative volume ratios.
 
 ## Tools
 - [Brick calculator](https://mortarsmash.com/brick-calculator.html): Estimates bricks, wet mortar, cement and sand for a wall in UK, US modular, German NF, Australian or custom sizes, and shows the working. Includes one-click common-project presets, a "bricks for common jobs" table, and a US answer block on how many bricks per square foot (modular ~6.9/sq ft single leaf; 20 ft × 3 ft two-wythe seat wall worked example), and a brick pier and pillar calculator (UK 1½-brick pier ~4½ bricks per course, ~60 per metre; US modular 12 and 16 in piers), and a brick-on-edge coping section (~13⅓ UK bricks per metre on a 215 mm wall; US rowlock cap ~4.6 per ft), and a garden wall footing concrete section (~0.1 m³ per metre for a 215 mm wall on a 450 × 225 mm strip; US 16 × 8 in footing ~0.9 cu ft per ft), and a concrete block section (~10 UK 440 × 215 mm blocks per m²; US 8 × 8 × 16 in CMU 1.125 per sq ft), and a brick weight section (UK brick ~2.2–3.4 kg, ~2.5–3 t per 1,000; US modular ~3.5 lb cored, 4.5 lb solid).
@@ -30,6 +31,7 @@
 - [Privacy Policy](https://mortarsmash.com/privacy.html): Contact form via FormSubmit used only to reply; Google Analytics; Google AdSense cookies and third-party ad vendors, with opt-out at https://adssettings.google.com; cookieless Cloudflare Web Analytics; game best score stays on your device.
 - [Disclaimer](https://mortarsmash.com/disclaimer.html): Accuracy, no professional relationship, calculator estimates, Google AdSense ads are not endorsements, no affiliate links.
 - [Editorial and advertising disclosure](https://mortarsmash.com/disclosure.html): Who writes the site, AI-generated photos labelled in captions, and Google AdSense advertising.
+- [Image policy](https://mortarsmash.com/image-policy.html): AI-generated article photos are labeled in the caption, which links here. The photos illustrate an idea and are not a record of a job, product, or measured mix.
 
 ## Optional
 - [Sitemap](https://mortarsmash.com/sitemap.xml): All indexable pages.
