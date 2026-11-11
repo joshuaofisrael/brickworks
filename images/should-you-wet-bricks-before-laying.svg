@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" role="img" aria-label="Diagram of the BIA field check: a one inch circle on the bedding face of a brick with water drops, and packs of brick being wetted the day before laying so they are saturated but surface dry">
+<style>text{font:16px sans-serif;fill:#333} .t{font:13px sans-serif;fill:#444}</style>
+<rect width="960" height="360" fill="#fbf7f2"/>
+<!-- brick face with circle -->
+<g transform="translate(60,60)">
+  <rect x="20" y="40" width="300" height="180" rx="6" fill="#b04a3a"/>
+  <circle cx="170" cy="130" r="48" fill="none" stroke="#f4e4c8" stroke-width="3"/>
+  <circle cx="155" cy="120" r="6" fill="#6fa8d6"/>
+  <circle cx="175" cy="112" r="6" fill="#6fa8d6"/>
+  <circle cx="185" cy="130" r="6" fill="#6fa8d6"/>
+  <text x="20" y="24">Field check on the bedding face</text>
+  <text x="20" y="250" class="t">1 in circle, 20 drops. If absorbed in under 1.5 min, adjust practice.</text>
+</g>
+<!-- packs -->
+<g transform="translate(480,50)">
+  <rect x="40" y="80" width="160" height="110" fill="#9a3f32"/>
+  <rect x="220" y="80" width="160" height="110" fill="#9a3f32"/>
+  <path d="M80 70 Q120 40 160 70" stroke="#6fa8d6" stroke-width="6" fill="none"/>
+  <path d="M260 70 Q300 40 340 70" stroke="#6fa8d6" stroke-width="6" fill="none"/>
+  <text x="40" y="24">Wet packs the day before</text>
+  <text x="40" y="220" class="t">Aim for a saturated interior and a dry surface at laying.</text>
+  <text x="40" y="242" class="t">Do not just dip or sprinkle immediately before laying.</text>
+</g>
+</svg>
