@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" role="img" aria-label="Diagram of bricks on a pallet stored off the ground and covered with a tarp, with sand also on a raised base under a cover">
+<style>text{font:16px sans-serif;fill:#333} .t{font:13px sans-serif;fill:#444}</style>
+<rect width="960" height="360" fill="#fbf7f2"/>
+<!-- ground -->
+<rect x="0" y="300" width="960" height="60" fill="#e8d7c4"/>
+<text x="40" y="330" class="t">Ground (mud, salts, runoff)</text>
+<!-- pallet + bricks -->
+<g transform="translate(80,80)">
+  <rect x="20" y="140" width="280" height="18" fill="#8a6a3d"/>
+  <rect x="40" y="158" width="20" height="50" fill="#6e542f"/>
+  <rect x="260" y="158" width="20" height="50" fill="#6e542f"/>
+  <rect x="40" y="70" width="240" height="70" fill="#b04a3a"/>
+  <g fill="#9a3f32">
+    <rect x="50" y="80" width="50" height="22"/>
+    <rect x="110" y="80" width="50" height="22"/>
+    <rect x="170" y="80" width="50" height="22"/>
+    <rect x="80" y="108" width="50" height="22"/>
+    <rect x="140" y="108" width="50" height="22"/>
+  </g>
+  <path d="M20 70 L160 20 L300 70 Z" fill="#5b6e7a" opacity="0.9"/>
+  <text x="70" y="18">Bricks on pallet, under cover</text>
+  <text x="70" y="230" class="t">Off the ground</text>
+</g>
+<!-- sand -->
+<g transform="translate(500,90)">
+  <rect x="30" y="150" width="280" height="14" fill="#8a6a3d"/>
+  <ellipse cx="170" cy="120" rx="120" ry="40" fill="#d2b48c"/>
+  <path d="M40 90 Q170 20 300 90" fill="none" stroke="#5b6e7a" stroke-width="8"/>
+  <text x="60" y="18">Sand under a water-resistant cover</text>
+  <text x="80" y="210" class="t">Stops saturation, runoff and segregation</text>
+</g>
+</svg>
