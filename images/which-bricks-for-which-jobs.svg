@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" role="img" aria-label="Diagram of typical brick uses: facing veneer, backing, below-grade engineering brick and a paved path">
+<style>text{font:15px sans-serif;fill:#333} .t{font:13px sans-serif;fill:#444}</style>
+<rect width="960" height="320" fill="#fbf7f2"/>
+<!-- house veneer -->
+<g transform="translate(40,40)">
+  <rect x="0" y="40" width="18" height="160" fill="#b5523b"/>
+  <rect x="18" y="40" width="70" height="160" fill="#e8dcc8" stroke="#c4b49a"/>
+  <rect x="8" y="20" width="90" height="22" fill="#8a4030"/>
+  <text x="50" y="230" text-anchor="middle">Facing / veneer</text>
+  <text class="t" x="50" y="248" text-anchor="middle">ASTM C216</text>
+</g>
+<!-- backing -->
+<g transform="translate(200,40)">
+  <rect x="0" y="40" width="90" height="160" fill="#c4a882"/>
+  <rect x="90" y="40" width="18" height="160" fill="#b5523b"/>
+  <text x="54" y="230" text-anchor="middle">Building / common</text>
+  <text class="t" x="54" y="248" text-anchor="middle">backing, ASTM C62</text>
+</g>
+<!-- below grade -->
+<g transform="translate(400,40)">
+  <rect x="20" y="0" width="120" height="16" fill="#7a8f6a"/>
+  <rect x="30" y="16" width="100" height="50" fill="#d8c9b0"/>
+  <rect x="20" y="66" width="120" height="70" fill="#6b2e2e"/>
+  <rect x="10" y="136" width="140" height="30" fill="#8a7a62"/>
+  <text x="80" y="230" text-anchor="middle">Below grade / DPC</text>
+  <text class="t" x="80" y="248" text-anchor="middle">engineering or Grade SW</text>
+</g>
+<!-- paving -->
+<g transform="translate(650,80)">
+  <rect x="0" y="80" width="260" height="16" fill="#8a7a62"/>
+  <g fill="#b5523b" stroke="#8a4030">
+    <rect x="0" y="50" width="60" height="30"/>
+    <rect x="65" y="50" width="60" height="30"/>
+    <rect x="130" y="50" width="60" height="30"/>
+    <rect x="195" y="50" width="60" height="30"/>
+    <rect x="32" y="16" width="60" height="30"/>
+    <rect x="97" y="16" width="60" height="30"/>
+    <rect x="162" y="16" width="60" height="30"/>
+  </g>
+  <text x="130" y="190" text-anchor="middle">Paving surface</text>
+  <text class="t" x="130" y="208" text-anchor="middle">ASTM C902 or C1272</text>
+</g>
+<text x="20" y="305">Original diagram by Mortar Smash. It illustrates typical uses described on this page; it is not a construction detail.</text>
+</svg>
