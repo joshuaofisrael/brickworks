@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" role="img" aria-label="Diagram of mixed salvaged brick from a demolished wall, with hard-burned units and under-burned salmon brick hard to sort for exterior use">
+<style>text{font:16px sans-serif;fill:#333} .t{font:13px sans-serif;fill:#444} .h{font:18px sans-serif;fill:#333}</style>
+<rect width="960" height="360" fill="#fbf7f2"/>
+<g transform="translate(30,30)">
+  <text class="h" x="0" y="10">Salvaged lots mix durable units with under-burned salmon brick</text>
+  <g transform="translate(0,40)">
+    <rect x="0" y="0" width="520" height="250" rx="8" fill="#e8dccf" stroke="#c4b09a"/>
+    <text class="t" x="16" y="24">Stockpile from a demolished wall</text>
+    <!-- mixed bricks -->
+    <rect x="24" y="44" width="90" height="44" fill="#6b2d22"/><rect x="122" y="44" width="90" height="44" fill="#e8a07a"/><rect x="220" y="44" width="90" height="44" fill="#8a3a2a"/><rect x="318" y="44" width="90" height="44" fill="#d9b9a0"/>
+    <rect x="24" y="98" width="90" height="44" fill="#c98a6a"/><rect x="122" y="98" width="90" height="44" fill="#5a241c"/><rect x="220" y="98" width="90" height="44" fill="#f0c4a0"/><rect x="318" y="98" width="90" height="44" fill="#7a3326"/>
+    <rect x="24" y="152" width="90" height="44" fill="#e8a07a"/><rect x="122" y="152" width="90" height="44" fill="#9a4a32"/><rect x="220" y="152" width="90" height="44" fill="#6b2d22"/><rect x="318" y="152" width="90" height="44" fill="#f3cbb0"/>
+    <text class="t" x="16" y="230">Hard-burned dark units and lighter salmon units are mixed</text>
+  </g>
+  <g transform="translate(560,40)">
+    <rect x="0" y="0" width="340" height="110" rx="6" fill="#6b2d22"/>
+    <text x="16" y="36" fill="#fbf7f2">Hard-burned brick</text>
+    <text class="t" x="16" y="62" fill="#f6e6dc">Often used on old exterior wythes</text>
+    <text class="t" x="16" y="84" fill="#f6e6dc">Higher durability when well fired</text>
+    <rect x="0" y="130" width="340" height="120" rx="6" fill="#e8a07a"/>
+    <text x="16" y="166">Salmon brick</text>
+    <text class="t" x="16" y="192">Under-burned, more porous</text>
+    <text class="t" x="16" y="214">BIA 15: must not be left in the weather</text>
+  </g>
+</g>
+</svg>
