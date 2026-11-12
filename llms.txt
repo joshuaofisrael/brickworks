@@ -51,6 +51,7 @@
 - [Disclaimer](https://mortarsmash.com/disclaimer.html): Accuracy, no professional relationship, calculator estimates, Google AdSense ads are not endorsements, no affiliate links.
 - [Editorial and advertising disclosure](https://mortarsmash.com/disclosure.html): Who writes the site, AI-generated photos labelled in captions, and Google AdSense advertising.
 - [Image policy](https://mortarsmash.com/image-policy.html): AI-generated article photos are labeled in the caption, which links here. The photos illustrate an idea and are not a record of a job, product, or measured mix.
+- [Brick expansion joint spacing](https://mortarsmash.com/brick-expansion-joint-spacing.html): Vertical joints no more than 25 ft apart (20 ft with multiple openings), corner and shelf angle rules, sealant and the spacing formula, from BIA Technical Note 18A and IMI.
 
 ## Optional
 - [Sitemap](https://mortarsmash.com/sitemap.xml): All indexable pages.
