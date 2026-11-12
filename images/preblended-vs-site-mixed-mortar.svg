@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" role="img" aria-label="Diagram comparing site-batched mortar ingredients with a factory preblended dry mortar mix that still has to meet a mortar type">
+<style>text{font:16px sans-serif;fill:#333} .t{font:13px sans-serif;fill:#444} .h{font:18px sans-serif;fill:#333}</style>
+<rect width="960" height="360" fill="#fbf7f2"/>
+<g transform="translate(40,36)">
+  <text class="h" x="0" y="0">Two ways to arrive at an ASTM C270 mortar type</text>
+  <g transform="translate(0,36)">
+    <rect x="0" y="0" width="420" height="260" rx="8" fill="#fff" stroke="#d4c4b0"/>
+    <text x="20" y="32">Site mixed</text>
+    <rect x="24" y="50" width="100" height="54" rx="4" fill="#e8d7c0"/><text class="t" x="40" y="82">Cement</text>
+    <rect x="140" y="50" width="100" height="54" rx="4" fill="#f0ead8"/><text class="t" x="164" y="82">Lime</text>
+    <rect x="256" y="50" width="140" height="54" rx="4" fill="#e6d4a8"/><text class="t" x="288" y="82">Masonry sand</text>
+    <text class="t" x="20" y="140">Measured and mixed on the board or in a mixer</text>
+    <text class="t" x="20" y="162">Proportions checked to the specified type</text>
+    <rect x="24" y="186" width="370" height="48" rx="4" fill="#c9b48a"/><text x="50" y="216">Mortar Type N, S, M or O</text>
+  </g>
+  <g transform="translate(460,36)">
+    <rect x="0" y="0" width="420" height="260" rx="8" fill="#fff" stroke="#d4c4b0"/>
+    <text x="20" y="32">Preblended dry mix</text>
+    <rect x="24" y="50" width="370" height="54" rx="4" fill="#d9e4c8"/><text class="t" x="70" y="82">Factory blend, bag or silo, water added on site</text>
+    <text class="t" x="20" y="140">BIA 8B: must meet ASTM C1714</text>
+    <text class="t" x="20" y="162">A C1714 mix also complies with ASTM C270</text>
+    <rect x="24" y="186" width="370" height="48" rx="4" fill="#c9b48a"/><text x="50" y="216">Same mortar Type N, S, M or O</text>
+  </g>
+</g>
+</svg>
