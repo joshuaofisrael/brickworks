@@ -58,6 +58,7 @@
 - [Image policy](https://mortarsmash.com/image-policy.html): AI-generated article photos are labeled in the caption, which links here. The photos illustrate an idea and are not a record of a job, product, or measured mix.
 - [Brick expansion joint spacing](https://mortarsmash.com/brick-expansion-joint-spacing.html): Vertical joints no more than 25 ft apart (20 ft with multiple openings), corner and shelf angle rules, sealant and the spacing formula, from BIA Technical Note 18A and IMI.
 - [Brick wall ties](https://mortarsmash.com/brick-wall-ties.html): Veneer over wood studs needs at least one tie per 2.67 sq ft, max 32 in horizontal and 24 in vertical (IRC), extra ties at openings; tie types, 1 1/2 in embedment, no drips and corrosion protection, from BIA Technical Notes 28 and 44B and CMHA TEK 12-01B.
+- [Which bricks and mortar below the DPC](https://mortarsmash.com/brickwork-below-dpc.html): F2,S2 or engineering bricks below the damp proof course, at least M6 mortar for F2,S2 facing brick and M12 for engineering brick courses on exposed work, sulfate resisting cement where ground requires, DPC 150 mm above ground (England), from the BDA, Premier Guarantee, Michelmersh and Approved Document C.
 
 ## Optional
 - [Sitemap](https://mortarsmash.com/sitemap.xml): All indexable pages.
