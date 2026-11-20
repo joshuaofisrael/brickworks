@@ -15,7 +15,7 @@
 - [Mortar types N, S, M and O](https://mortarsmash.com/mortar-types-n-s-m-o.html): ASTM C270 types for bricklayers — Type N general above-grade, Type S below-grade/retaining, Type M heavy loads, Type O soft historic brick; why harder mortar can damage soft brick.
 - [Lime vs cement mortar](https://mortarsmash.com/lime-vs-cement-mortar.html): Lime, NHL and Portland cement binders compared; when soft brick needs lime; cement-lime Type N/S as the practical middle; curing differences.
 - [How to mix mortar](https://mortarsmash.com/how-to-mix-mortar.html): Volume ratios 1:3 to 1:6, cement:lime:sand gauging, water sense, batch size, wheelbarrow vs mixer, and common strength failures.
-- [Building sand vs sharp sand](https://mortarsmash.com/building-sand-vs-sharp-sand.html): Masonry sand (building sand, ASTM C144) versus sharp or concrete sand (ASTM C33) for bricklaying mortar, floor beds, and concrete, with illustrative volume ratios.
+- [Building sand vs sharp sand](https://mortarsmash.com/building-sand-vs-sharp-sand.html): Use masonry sand graded to ASTM C144 in a brick joint. Sharp or concrete sand is for screeds and concrete. Ratios on the page are labelled illustrative. Sources re-read 20 November 2026.
 
 - [Trade guides hub](https://mortarsmash.com/guides.html): Index of all bricklaying and mortar guides.
 - [Cold weather bricklaying](https://mortarsmash.com/cold-weather-bricklaying.html): Cold weather bricklaying rules: when the 40 °F threshold applies, how warm mortar must be, and how long to cover new brickwork, from BIA and TMS guidance.
@@ -36,9 +36,9 @@
 - [Salvaged or reclaimed brick](https://mortarsmash.com/salvaged-or-reclaimed-brick.html): BIA Technical Note 15 (May 1988): salvaged lots mix hard-burned and salmon brick, bond to new mortar is weaker, and under-burned salmon brick must not be left in the weather. Confirm the current code.
 - [Facing brick types FBX, FBS and FBA](https://mortarsmash.com/facing-brick-types-fbx-fbs-fba.html): BIA Technical Note 9A: ASTM C216 Type FBX is the tightest appearance class, FBS is standard production, and FBA is architectural and must be specified. Grade is a separate choice.
 - [Which mortar for brickwork](https://mortarsmash.com/which-mortar-for-brickwork.html): Mortar choice by job from the Acme Brick selection guide (N for most veneer, M or S below grade), lab strength figures that are not field pass/fail values, repointing and FAQ.
-- [Weep holes in brick walls](https://mortarsmash.com/weep-holes-in-brick.html): Weep holes drain water from behind brick. BIA recommends open head joint weeps no more than 24 in apart, right above the flashing. Never block them.
+- [Weep holes in brick walls](https://mortarsmash.com/weep-holes-in-brick.html): BIA Technical Note 7B (November 2017) recommends open head joint weeps no more than 24 in apart, on the flashing. The same note says most codes allow 33 in. Do not block the openings.
 - [Mortar joint thickness](https://mortarsmash.com/mortar-joint-thickness.html): Standard brick mortar joints are 3/8 in (9.5 mm) for US modular brick and 10 mm in UK work. How joint size sets brick sizes and coursing.
-- [Colored mortar](https://mortarsmash.com/colored-mortar.html): Colored mortar: ASTM C979 pigments, max 10% of cement weight for metallic oxides and 2% for carbon black. How to batch for even color.
+- [Colored mortar](https://mortarsmash.com/colored-mortar.html): BIA Technical Note 8 (March 2020): metallic oxide pigments up to 10 percent of cement weight in cement-lime mortar and 5 percent for masonry or mortar cement. Carbon black is 2 percent and 1 percent. Prefer colored sand when it can carry the color.
 - [Mortar vs grout vs concrete](https://mortarsmash.com/mortar-vs-grout-vs-concrete.html): Mortar bonds brick (ASTM C270), masonry grout fills cores (ASTM C476) and concrete is structural with coarse aggregate. Uses and timing compared.
 
 ## Tools
@@ -49,12 +49,12 @@
 - [Mortar Smash](https://mortarsmash.com/game.html): A free, original brick-smashing arcade game with 9 levels and keyboard, mouse and touch controls.
 
 ## About and policies
-- [About](https://mortarsmash.com/about.html):
+- [About](https://mortarsmash.com/about.html): What the site is. The trade-guide byline is the Mortar Smash editorial team, a brand byline with no personal credential.
 - [Contact](https://mortarsmash.com/contact.html): Contact form (name, email, message).
 - [Terms of Use](https://mortarsmash.com/terms.html): General information only, estimates are approximate, no warranties, Florida law.
 - [Privacy Policy](https://mortarsmash.com/privacy.html): Contact form via FormSubmit used only to reply; Google Analytics; Google AdSense cookies and third-party ad vendors, with opt-out at https://adssettings.google.com; cookieless Cloudflare Web Analytics; game best score stays on your device.
 - [Disclaimer](https://mortarsmash.com/disclaimer.html): Accuracy, no professional relationship, calculator estimates, Google AdSense ads are not endorsements, no affiliate links.
-- [Editorial and advertising disclosure](https://mortarsmash.com/disclosure.html): Who writes the site, AI-generated photos labelled in captions, and Google AdSense advertising.
+- [Editorial, sourcing and advertising disclosure](https://mortarsmash.com/disclosure.html): The editorial and sourcing policy (what a number has to come from, how a page is re-checked, how to send a correction), AI-generated photos, and Google AdSense advertising.
 - [Image policy](https://mortarsmash.com/image-policy.html): AI-generated article photos are labeled in the caption, which links here. The photos illustrate an idea and are not a record of a job, product, or measured mix.
 - [Brick expansion joint spacing](https://mortarsmash.com/brick-expansion-joint-spacing.html): Vertical joints no more than 25 ft apart (20 ft with multiple openings), corner and shelf angle rules, sealant and the spacing formula, from BIA Technical Note 18A and IMI.
 - [Brick wall ties](https://mortarsmash.com/brick-wall-ties.html): Veneer over wood studs needs at least one tie per 2.67 sq ft, max 32 in horizontal and 24 in vertical (IRC), extra ties at openings; tie types, 1 1/2 in embedment, no drips and corrosion protection, from BIA Technical Notes 28 and 44B and CMHA TEK 12-01B.

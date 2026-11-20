@@ -27,3 +27,25 @@ main p,main li{line-height:1.7;max-width:68ch}
 .cards{align-items:stretch}
 footer .legal a:focus-visible{outline:3px solid var(--brick);outline-offset:2px}
 @media (max-width:640px){main{padding:1rem .85rem}.hero{padding:3rem .85rem 1.5rem}nav a{padding:.45rem .7rem}}
+
+/* engagement 2026-11-20: editorial next-reads and compare boxes. Text links inside the article, not ad units. */
+.byline{font-size:.95rem;margin:.2rem 0 1rem}
+.byline a{color:var(--brick)}
+.next-reads{margin:1.5rem 0 1.8rem;padding:0}
+.next-reads h2{font-size:1.25rem;margin:0 0 .65rem}
+.next-reads ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem}
+.next-reads li{margin:0;background:#fff;border:1px solid #d4c4b0;border-radius:4px}
+.next-reads a.card-link{display:block;color:inherit;text-decoration:none}
+.next-reads img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block;border-radius:4px 4px 0 0}
+.next-reads a.card-link span{display:block;padding:0 .7rem}
+.next-reads .next-title{font-weight:bold;color:var(--brick);margin-top:.45rem}
+.next-reads .next-why{font-size:.9rem;line-height:1.4;padding-bottom:.55rem}
+.next-reads .next-credit{font-size:.75rem;color:#666;padding:0 .7rem .6rem}
+.next-reads .next-credit a{color:var(--brick);text-decoration:underline}
+.next-reads a.card-link:hover .next-title,.next-reads a.card-link:focus-visible .next-title{text-decoration:underline}
+.compare-box{background:#fff;border-left:6px solid var(--brick);padding:.85rem 1rem;margin:1.4rem 0;border-radius:4px}
+.compare-box h2{font-size:1.2rem;margin:.1rem 0 .4rem}
+.compare-box p{margin:.3rem 0}
+.compare-box ul{margin:.35rem 0 0;padding-left:1.15rem}
+.compare-box a{color:var(--brick)}
+@media (max-width:640px){.next-reads ul{grid-template-columns:1fr}}
