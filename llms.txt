@@ -12,9 +12,9 @@
 - [Brick care and repointing tips](https://mortarsmash.com/#care): Mortar choice, raking out, curing, gentle cleaning and fixing damp at the source.
 - [Brick FAQ](https://mortarsmash.com/#faq): Short answers on brick sizes, English versus Flemish bond, brickmaking and repointing mortar.
 
-- [Mortar types N, S, M and O](https://mortarsmash.com/mortar-types-n-s-m-o.html): ASTM C270 types for bricklayers — Type N general above-grade, Type S below-grade/retaining, Type M heavy loads, Type O soft historic brick; why harder mortar can damage soft brick.
+- [Mortar types N, S, M and O](https://mortarsmash.com/mortar-types-n-s-m-o.html): BIA Technical Note 8 (March 2020) laboratory minimums: Type M 2,500 psi, S 1,800, N 750, O 350. Field cubes are not the compliance test. Cement-lime sand is 2½ to 3 times the cementitious volume. Sources re-read 21 November 2026.
 - [Lime vs cement mortar](https://mortarsmash.com/lime-vs-cement-mortar.html): Lime, NHL and Portland cement binders compared; when soft brick needs lime; cement-lime Type N/S as the practical middle; curing differences.
-- [How to mix mortar](https://mortarsmash.com/how-to-mix-mortar.html): Volume ratios 1:3 to 1:6, cement:lime:sand gauging, water sense, batch size, wheelbarrow vs mixer, and common strength failures.
+- [How to mix mortar](https://mortarsmash.com/how-to-mix-mortar.html): Cement-lime Type N at 1 part lime takes 5 to 6 parts sand (BIA Technical Note 8, Table 1). Mix to the wettest workable consistency, retemper evaporated water, and use the batch within 2½ hours (2 hours in hot weather). Sources re-read 21 November 2026.
 - [Building sand vs sharp sand](https://mortarsmash.com/building-sand-vs-sharp-sand.html): Use masonry sand graded to ASTM C144 in a brick joint. Sharp or concrete sand is for screeds and concrete. Ratios on the page are labelled illustrative. Sources re-read 20 November 2026.
 
 - [Trade guides hub](https://mortarsmash.com/guides.html): Index of all bricklaying and mortar guides.
@@ -54,7 +54,8 @@
 - [Terms of Use](https://mortarsmash.com/terms.html): General information only, estimates are approximate, no warranties, Florida law.
 - [Privacy Policy](https://mortarsmash.com/privacy.html): Contact form via FormSubmit used only to reply; Google Analytics; Google AdSense cookies and third-party ad vendors, with opt-out at https://adssettings.google.com; cookieless Cloudflare Web Analytics; game best score stays on your device.
 - [Disclaimer](https://mortarsmash.com/disclaimer.html): Accuracy, no professional relationship, calculator estimates, Google AdSense ads are not endorsements, no affiliate links.
-- [Editorial, sourcing and advertising disclosure](https://mortarsmash.com/disclosure.html): The editorial and sourcing policy (what a number has to come from, how a page is re-checked, how to send a correction), AI-generated photos, and Google AdSense advertising.
+- [Editorial and sourcing policy](https://mortarsmash.com/editorial-policy.html): What a number has to come from, who the Mortar Smash editorial team byline is, how a page is re-checked, and how to send a correction.
+- [Advertising disclosure](https://mortarsmash.com/disclosure.html): Google AdSense advertising, with a pointer to the editorial and sourcing policy. AI-generated photos are credited on the image policy.
 - [Image policy](https://mortarsmash.com/image-policy.html): AI-generated article photos are labeled in the caption, which links here. The photos illustrate an idea and are not a record of a job, product, or measured mix.
 - [Brick expansion joint spacing](https://mortarsmash.com/brick-expansion-joint-spacing.html): Vertical joints no more than 25 ft apart (20 ft with multiple openings), corner and shelf angle rules, sealant and the spacing formula, from BIA Technical Note 18A and IMI.
 - [Brick wall ties](https://mortarsmash.com/brick-wall-ties.html): Veneer over wood studs needs at least one tie per 2.67 sq ft, max 32 in horizontal and 24 in vertical (IRC), extra ties at openings; tie types, 1 1/2 in embedment, no drips and corrosion protection, from BIA Technical Notes 28 and 44B and CMHA TEK 12-01B.
